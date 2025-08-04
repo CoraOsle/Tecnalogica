@@ -1,0 +1,40 @@
+:root{
+--color-general:#00171F;
+--color-detalles:#E66EB2;
+
+}
+
+@font-face {
+    font-family:'montserrat-bold';
+    src: url('/multimedia/tipografias/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family:'montserrat-general';
+    src: url('/multimedia/tipografias/Montserrat-Regular.ttf');
+}
+
+body{
+    margin-left:3%;
+    margin-right: 3%;
+    background-color:var(--color-general);
+    font-family:"montserrat-general";
+ 
+}
+
+h1{
+    font-size: 215%;
+    color:var(--color-detalles);
+    font-family: "montserrat-bold";
+    margin-top: 3%;
+}
+
+li{
+    color:white;
+    font-size: 125%;
+
+}
+ul{
+    margin-top: 15%;
+}
+
