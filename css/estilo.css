@@ -1,40 +1,61 @@
-:root{
---color-general:#00171F;
---color-detalles:#E66EB2;
-
+:root {
+    --color-general: #5C396E;
+    --color-detalles: #FF763B;
+    --color-blanco: white;
 }
 
 @font-face {
-    font-family:'montserrat-bold';
-    src: url('/multimedia/tipografias/Montserrat-Black.ttf');
+    font-family: 'pressStart';
+    src: url('/multimedia/tipografias/PressStart2P-Regular.ttf');
 }
 
 @font-face {
-    font-family:'montserrat-general';
+    font-family: 'montserrat-general';
     src: url('/multimedia/tipografias/Montserrat-Regular.ttf');
 }
 
-body{
-    margin-left:3%;
+body {
+    margin-left: 3%;
     margin-right: 3%;
-    background-color:var(--color-general);
+    background-color: var(--color-general);
+}
+.GridHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+nav {
+    margin-top: 10%;
+    font-size: 150%;
     font-family:"montserrat-general";
- 
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
 }
 
-h1{
-    font-size: 215%;
+nav li {
+    padding: 5%;
+    list-style-type: none;
+    display:inline;
+    color: var(--color-detalles);
+}
+
+.textinicio {
+    grid-row: 2/3;
+    grid-column:2/3;
     color:var(--color-detalles);
-    font-family: "montserrat-bold";
-    margin-top: 3%;
 }
 
-li{
-    color:white;
-    font-size: 125%;
+h1 {
+    font-size: 500%;
+    font-family: "pressStart";
+}
 
+h2{
+    font-size:120%;
+    font-family:"montserrat-general";
+    text-align: center;
 }
-ul{
-    margin-top: 15%;
-}
+
+
 
