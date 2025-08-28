@@ -15,8 +15,6 @@
 }
 
 body {
-    margin-left: 3%;
-    margin-right: 3%;
     background-color: var(--color-general);
 }
 .GridHeader{
@@ -25,7 +23,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
 }
 nav {
-    margin-top: 10%;
+    margin-top: 3%;
     font-size: 150%;
     font-family:"montserrat-general";
     grid-row: 1/2;
@@ -46,8 +44,22 @@ nav li {
     color:var(--color-detalles);
 }
 
+.dino1{
+    width: 55%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 15%;
+}
+
+.dino2{
+    width: 55%;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    padding:15%;
+}
+
 h1 {
-    font-size: 500%;
+    font-size: 450%;
     font-family: "pressStart";
 }
 
