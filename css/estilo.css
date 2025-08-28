@@ -20,7 +20,7 @@ body {
 .GridHeader{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 140% 1fr 1fr;
 }
 nav {
     margin-top: 3%;
@@ -38,6 +38,7 @@ nav li {
     color: var(--color-detalles);
 }
 
+
 .textinicio {
     grid-row: 2/3;
     grid-column:2/3;
@@ -45,14 +46,14 @@ nav li {
 }
 
 .dino1{
-    width: 55%;
+    width: 40%;
     grid-row: 2/3;
     grid-column: 1/2;
     padding: 15%;
 }
 
 .dino2{
-    width: 55%;
+    width: 40%;
     grid-row: 2/3;
     grid-column: 3/4;
     padding:15%;
