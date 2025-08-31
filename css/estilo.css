@@ -2,6 +2,7 @@
     --color-general: #5C396E;
     --color-detalles: #FF763B;
     --color-blanco: white;
+    --color-general2: #331447;
 }
 
 @font-face {
@@ -45,19 +46,6 @@ nav li {
     color:var(--color-detalles);
 }
 
-.dino1{
-    width: 40%;
-    grid-row: 2/3;
-    grid-column: 1/2;
-    padding: 15%;
-}
-
-.dino2{
-    width: 40%;
-    grid-row: 2/3;
-    grid-column: 3/4;
-    padding:15%;
-}
 
 h1 {
     font-size: 450%;
@@ -70,5 +58,28 @@ h2{
     text-align: center;
 }
 
+.flexmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    column-gap: 1%;
+}
+
+.flexcontenedor{
+    background-color:var(--color-general2);
+    width: 33%;
+    padding: 2%;
+}
+
+    
 
 
+h3{
+    font-family: "pressStart";
+    color: var(--color-detalles);
+}
+
+p{
+    font-family: "montserrat-general";
+    color: var(--color-blanco);
+}
