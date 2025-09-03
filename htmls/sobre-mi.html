@@ -9,8 +9,10 @@
         content="tutoriales, tutorial, guia, pc, ordenadores, computadoras, portatiles, torres,mac,moviles,android,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="">
     <title>Tecnalogica</title>
 </head>
+
 <body>
     <!-- cabecera -->
     <header>
@@ -20,8 +22,6 @@
                     <a href="../index.html">
                         <li>Inicio</li>
                     </a>
-                    <a href>
-                        <li>Blog</li>
                     </a>
                     <a href="sobre-mi.html">
                         <li>Sobre mi</li>
@@ -35,10 +35,30 @@
         </div>
     </header>
     <main>
-        <article>
-            <img alt="" src=" ">
-            <p></p>
+        <article class="sobremi">
+            <img class="imgsobremi" alt="Un patito amarillo" src="../multimedia/img/selfie.webp">
+            <p class="textsobremi">Me llamo Cora, si tuviera que ubicarme en algun lugar, diria la desgastadisima respuesta de, en mi casa, donde dedico tiempo a esta pagina web. La motivacion que me dio hacer esta plataforma fue crear una web donde pudiera hablar tecnologia y videojuegos desde (Espero) otro enfoque. Muchas paginas de la misma tematica usan el mismo estilo una y otra vez pero... ¿Que plataforma la escribe un pato?
+            </p>
         </article>
+        <div class="formulario">
+            <h3 class="tituloformulario">Contacto:</h3>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="remitente">¿Quién lo envía?</label><br>
+                <input type="text" id="remitente" name="remitente" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </main>
 </body>
+
 </html>

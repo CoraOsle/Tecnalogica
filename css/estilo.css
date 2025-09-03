@@ -17,11 +17,13 @@
 
 body {
     background-color: var(--color-general);
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .GridHeader{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 140% 1fr 1fr;
+    grid-template-rows: 25% 1fr ;
 }
 nav {
     margin-top: 3%;
@@ -39,10 +41,9 @@ nav li {
     color: var(--color-detalles);
 }
 
-
 .textinicio {
-    grid-row: 2/3;
     grid-column:2/3;
+    grid-row:2/3;
     color:var(--color-detalles);
 }
 
@@ -71,7 +72,10 @@ h2{
     padding: 2%;
 }
 
-    
+
+.articulo{
+    width: 100%;
+}
 
 
 h3{
@@ -82,4 +86,37 @@ h3{
 p{
     font-family: "montserrat-general";
     color: var(--color-blanco);
+}
+.sobremi{
+    display:flex;
+    flex-direction: row;
+    column-gap:3%;
+}
+.imgsobremi{
+    width: 35%;
+}
+
+.textsobremi{
+    width: 35%;
+    font-size:120%;
+}
+.formulario{
+    background-color: var(--color-general2);
+    padding: 1%;
+}
+
+.tituloformulario{
+    font-size: 180%;
+
+}
+
+label{
+    font-family: "montserrat-general";
+    color:var(--color-blanco);
+}
+
+footer{
+    color: var(--color-blanco);
+    background-color: var(--color-general2);
+    font-style: "monserrat-general";
 }
