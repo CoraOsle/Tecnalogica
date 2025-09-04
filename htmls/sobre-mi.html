@@ -9,10 +9,9 @@
         content="tutoriales, tutorial, guia, pc, ordenadores, computadoras, portatiles, torres,mac,moviles,android,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="../multimedia/img/icon-pato.png">
     <title>Tecnalogica</title>
 </head>
-
 <body>
     <!-- cabecera -->
     <header>
@@ -35,30 +34,43 @@
         </div>
     </header>
     <main>
-        <article class="sobremi">
-            <img class="imgsobremi" alt="Un patito amarillo" src="../multimedia/img/selfie.webp">
-            <p class="textsobremi">Me llamo Cora, si tuviera que ubicarme en algun lugar, diria la desgastadisima respuesta de, en mi casa, donde dedico tiempo a esta pagina web. La motivacion que me dio hacer esta plataforma fue crear una web donde pudiera hablar tecnologia y videojuegos desde (Espero) otro enfoque. Muchas paginas de la misma tematica usan el mismo estilo una y otra vez pero... ¿Que plataforma la escribe un pato?
-            </p>
-        </article>
-        <div class="formulario">
-            <h3 class="tituloformulario">Contacto:</h3>
-            <form action="#" method="post">
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
+        <div class="flexmain">
+             <div class="flexcontme">
+            <article>   
+                    <img class="imgsobremi"  alt="Un patito amarillo" src="../multimedia/img/selfie.webp">
+                </div>
+                <div class="flexcontme">
+                    <p>Me llamo Cora, si tuviera que ubicarme en algun lugar, diria la desgastadisima respuesta de, en
+                        mi casa, donde dedico tiempo a esta pagina web. La motivacion que me dio hacer esta plataforma
+                        fue crear una web donde pudiera hablar tecnologia y videojuegos desde (Espero) otro enfoque.
+                        Muchas paginas de la misma tematica usan el mismo estilo una y otra vez pero... ¿Que plataforma
+                        la escribe un pato?
+                    </p>
+                </div>
+            </article>
+            <div class="flexcontme">
+                <h3 class="tituloformulario">Contacto:</h3>
+                <form action="https://forms.carloscasado.es/?key=uSqrYFY0515t" method="post">
 
-                <label for="correo">Correo electrónico:</label><br>
-                <input type="email" id="correo" name="correo" required><br><br>
+                    <input type="hidden" id="destinatario" name="destinatario" value="coraosle@gmail.com"><br><br>
 
-                <label for="remitente">¿Quién lo envía?</label><br>
-                <input type="text" id="remitente" name="remitente" required><br><br>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
 
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required><br><br>
 
-                <button type="submit">Enviar</button>
-            </form>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
     </main>
+    <footer>
+        © 2025 Tecnalogica. Todos los derechos reservados.
+    </footer>
 </body>
 
 </html>
